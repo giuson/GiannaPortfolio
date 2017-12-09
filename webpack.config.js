@@ -9,7 +9,8 @@ module.exports = {
   },
   output: {
     filename: 'client.min.js',
-    path: __dirname
+    path: __dirname,
+    publicPath: "/gianna/"
   },
   module: {
     rules: [
