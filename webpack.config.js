@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     filename: 'client.min.js',
-    path: __dirname
+    path: '/'
   },
   module: {
     rules: [
