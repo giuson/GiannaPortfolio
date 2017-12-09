@@ -4,22 +4,22 @@
   font-weight: bold;
   text-transform: uppercase; }
 
-.circle, .relevant-skill-list table.skill-table tr.skill-entry td.skill-dots-container .skill-dot {
+.circle {
   border-radius: 50%;
   display: inline-block; }
 
 .portfolio-summary {
   cursor: pointer; }
 
-.resume-entry .resume-portfolio-link, .relevant-skill-list table.skill-table tr.skill-entry td.skill-name a, .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a, nav a, .main-footer a, .about-page .content a, .contact-page .content a {
+.portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a, nav a, .main-footer a, .about-page .content a, .contact-page .content a {
   cursor: pointer;
   text-decoration: none; }
-  .resume-entry .resume-portfolio-link:hover, .relevant-skill-list table.skill-table tr.skill-entry td.skill-name a:hover, .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a:hover, nav a:hover, .main-footer a:hover, .about-page .content a:hover, .contact-page .content a:hover {
+  .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a:hover, nav a:hover, .main-footer a:hover, .about-page .content a:hover, .contact-page .content a:hover {
     text-decoration: underline; }
 
-.resume-entry .resume-portfolio-link, .relevant-skill-list table.skill-table tr.skill-entry td.skill-name a, .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a {
+.portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a {
   color: #88562d; }
-  .resume-entry .resume-portfolio-link:after, .relevant-skill-list table.skill-table tr.skill-entry td.skill-name a:after, .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a:after {
+  .portfolio-entry .portfolio-summary .portfolio-profile .portfolio-links a:after {
     content: " \203A"; }
 
 a, .portfolio-summary .portfolio-skill,
@@ -197,117 +197,6 @@ ul li {
 .hoverable-icon img.icon {
   margin: 0 10px; }
 
-.resume-entry > * {
-  display: inline-block;
-  vertical-align: top; }
-
-.resume-entry .resume-main .title {
-  font-weight: 600; }
-
-.resume-entry .resume-portfolio-link {
-  font-size: .9em;
-  display: block; }
-
-.resume-entry:not(:last-child) {
-  margin-bottom: 24px; }
-
-.resume-entry.selected {
-  color: #984b43; }
-
-@media screen and (min-width: 768px) and (max-width: 971px), screen and (min-width: 972px) and (max-width: 1399px), screen and (min-width: 1400px) {
-  .resume-entry .resume-date {
-    width: 25%; }
-  .resume-entry .resume-main {
-    width: 75%; }
-    .resume-entry .resume-main .title {
-      font-weight: 600; }
-  .resume-entry.has-description .resume-date {
-    width: 15%;
-    min-width: 100px; }
-  .resume-entry.has-description .resume-main {
-    width: 20%; }
-  .resume-entry.has-description .resume-description {
-    display: inline-block;
-    max-width: 65%; }
-    .resume-entry.has-description .resume-description ul {
-      display: inline-block;
-      margin: 0;
-      padding: 0; } }
-
-@media screen and (max-width: 480px), screen and (min-width: 481px) and (max-width: 767px) {
-  .resume-entry .resume-date, .resume-entry .resume-main {
-    width: 100%; }
-  .resume-entry .resume-main .title {
-    font-size: 1.25em; } }
-
-.relevant-coursework .coursework-lists ul {
-  padding: 0px;
-  margin: 0px;
-  display: inline-block;
-  width: 50%;
-  list-style-type: none; }
-
-.timeline-legend {
-  font-size: 11.2px;
-  font-weight: normal;
-  float: right; }
-  @media screen and (min-width: 768px) and (max-width: 971px), screen and (min-width: 972px) and (max-width: 1399px), screen and (min-width: 1400px) {
-    .timeline-legend {
-      margin-left: 100px; } }
-  .timeline-legend .legend-pair {
-    margin-left: 40px; }
-
-.relevant-skill-list {
-  display: inline-block;
-  padding: 5px; }
-  .relevant-skill-list .skill-table-title {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 10px; }
-  .relevant-skill-list table.skill-table {
-    border: 0px;
-    border-spacing: 0;
-    empty-cells: show; }
-    @media screen and (max-width: 480px), screen and (min-width: 481px) and (max-width: 767px) {
-      .relevant-skill-list table.skill-table {
-        margin: 0 auto; } }
-    .relevant-skill-list table.skill-table tr.skill-entry td.skill-name {
-      text-align: right;
-      padding-right: 1em; }
-    .relevant-skill-list table.skill-table tr.skill-entry:first-child td.skill-name {
-      padding-top: 10px; }
-    .relevant-skill-list table.skill-table tr.skill-entry td.skill-dots-container {
-      padding: 0 10px;
-      text-align: left;
-      max-width: 75px;
-      background-color: #CBB778; }
-      .relevant-skill-list table.skill-table tr.skill-entry td.skill-dots-container .skill-dot {
-        background-color: white;
-        width: 8px;
-        height: 8px;
-        margin: .5em 4px; }
-      .relevant-skill-list table.skill-table tr.skill-entry td.skill-dots-container .skill-text {
-        color: white; }
-    .relevant-skill-list table.skill-table tr.skill-entry.text-proficiency {
-      vertical-align: top; }
-    .relevant-skill-list table.skill-table tr.skill-entry:first-child td.skill-dots-container {
-      padding-top: 10px; }
-    .relevant-skill-list table.skill-table tr.skill-entry:last-child td.skill-dots-container {
-      padding-bottom: 10px; }
-
-.relevant-skill-lists .relevant-skill-list-container {
-  text-align: center; }
-  @media screen and (min-width: 768px) and (max-width: 971px), screen and (min-width: 972px) and (max-width: 1399px), screen and (min-width: 1400px) {
-    .relevant-skill-lists .relevant-skill-list-container {
-      display: flex;
-      justify-content: space-around; } }
-
-.resume-skills-desc {
-  font-size: .9em;
-  font-weight: normal;
-  color: #88562d; }
-
 .portfolio-entry {
   margin: 2em 0;
   /*&.closed .portfolio-summary {
@@ -382,20 +271,6 @@ ul li {
     display: none; }
   .portfolio-entry.expanded .portfolio-description {
     display: block; } }
-
-div.skill-filter {
-  border-radius: 3px; }
-  div.skill-filter select {
-    border: 1px solid #ccc;
-    box-shadow: none;
-    background: transparent;
-    height: 2em; }
-    @media screen and (max-width: 480px), screen and (min-width: 481px) and (max-width: 767px) {
-      div.skill-filter select {
-        width: 100%;
-        height: 3em; } }
-    div.skill-filter select:focus {
-      outline: none; }
 
 /*.landing { 
     background: url(http://www.michaelbannongolfteam.com/wp-content/uploads/2014/08/Blurred-background.jpg) no-repeat center center fixed; 
