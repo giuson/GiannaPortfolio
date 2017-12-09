@@ -1,0 +1,22 @@
+@import 'utils/_variables.scss';
+@import 'utils/_mixins.scss';
+@import 'utils/_placeholders.scss';
+
+//styles that apply to all pages or all elements of a type
+@import 'base/_basic.scss';
+
+//components
+@import 'components/_landing_content.scss';
+@import 'components/_landing_navigation.scss';
+@import 'components/_main_navigation.scss';
+@import "components/main_navigation_hamburger.scss";
+@import 'components/_main_footer.scss';
+@import 'components/_hoverable_icon.scss';
+
+@import 'components/_portfolio_entry.scss';
+
+//pages
+@import 'pages/_landing_page.scss';
+@import 'pages/_about_page.scss';
+@import 'pages/_portfolio_page.scss';
+@import 'pages/_contact_page.scss';

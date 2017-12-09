@@ -1,0 +1,118 @@
+/*.landing { 
+    background: url(http://www.michaelbannongolfteam.com/wp-content/uploads/2014/08/Blurred-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}*/
+
+.landing-page {
+  text-align: center;
+  width: 70%;
+  min-width: 50%;
+  height: 80%;
+  margin: 15% auto 5% auto;
+
+
+}
+
+  @media #{$media_medium_and_up}{
+.navbar-brand {
+  float: left;
+  padding: 13px 15px;
+  font-size: 19px;
+  line-height: 24px;
+  color:white;
+  margin-left:9vw;
+}
+
+.navbar-brand:hover {
+	text-decoration:none;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style-type: none;
+  display:block;
+}
+
+.navbar-fixed-top {
+    z-index: 1030;
+    top: 0;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 24px;
+    padding-top:12px;
+    border: 1px solid transparent;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right:9vw;
+      display:flex;
+  justify-content: space-between;
+  
+
+
+}
+
+li {
+    position: relative;
+    display:inline-flex;
+      padding-left:5vw;
+      align-items: center;
+}
+
+li a {
+	color:white;
+	font-size: 15px;
+}
+
+li a:hover {
+	text-decoration:none;
+}
+}
+
+@media #{$media_tiny}, #{$media_small} {
+    nav.desktop-nav {
+      display: none;
+    }
+
+    nav.navbar {
+      display: none;
+    }
+  }
