@@ -10,7 +10,7 @@ export default class PortfolioEntry extends React.Component {
       this.setState({showMore: !this.state.showMore});
   }
   render(){
-    const image = require('../../../assets/' + this.props.image);
+    const image = require('../../assets/' + this.props.image);
     
         return (
       <div id={this.props.id}
