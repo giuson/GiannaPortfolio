@@ -19,7 +19,7 @@
             },
              {
                "component": "JsonImageLoader",
-               "text": "portfolio/mind2body/original.png"
+               "text": "/assets/original.png"
              },
             {
                "component": "div",
@@ -53,7 +53,7 @@
 
       {
          "title":"PERSONA/STORYBOARDING",
-         "image":"portfolio/storyboard/storyboard.png",
+         "image":"/assets/storyboard.png",
          "subtitle":"a persona and storyboard for the Coca-Cola Freestyle Kiosk",
          
   
@@ -73,7 +73,7 @@
       },
       {
          "title":"CURESKIN PROTOTYPE",
-         "image":"portfolio/cureskin/cureskin.png",
+         "image":"/assets/cureskin.png",
          
          "subtitle":"a smartphone prototype for an Indian dermatology startup",
          "siteLink": "https://www.quant-ux.com/test.html?h=a2aa10ae74MLSUBs5zvkinw115faOIEMfwIZ1n5nz76HdtQIipSxvTSEFzo6",
@@ -93,7 +93,7 @@
       },
       {
          "title":"A/B TESTING & EYETRACKING",
-         "image":"portfolio/abtest/eyetracking.png",
+         "image":"/assets/eyetracking.png",
          "subtitle":"A/B testing for a fictitious taxi website",
     
          "description":"We created 2 versions of a hypothetical taxi website and collected and analyzed user behavior through quantitative data in A/B Testing and qualitative data in Eye Tracking.",
