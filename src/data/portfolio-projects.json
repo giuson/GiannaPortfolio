@@ -1,0 +1,115 @@
+{
+   "projects":[
+
+      {
+         "title":"RESPONSIVE REDESIGN",
+         "image":"portfolio/mind2body/mind2body.png",
+         "subtitle":"a redesign of the Mind 2 Body Fitness Studio website",
+    
+         "description":"I redesigned Mind 2 Body Fitness Studio's website based on usability principles: adapting to different sized devices. I used Balsamiq to create wireframes and did a visual redesign on Sketch before creating a hi-fi prototype using HTML/CSS.",
+         
+         "siteLink": "/assets/mind2body.html",
+
+         "content": {
+           "component": "div",
+           "children":[
+             {
+               "component": "div",
+               "text": "I chose to redesign Mind2Body's website because I noticed that its layout was not adaptive which made it difficult to book classes while using my phone. It also had some navigational issues I had some ideas for."
+            },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/mind2body/original.png"
+             },
+            {
+               "component": "div",
+               "children": [
+                 {
+                   "component":"span",
+                   "text":"The original website is shown "
+                  },
+                  {
+                    "component": "JsonLinkLoader",
+                    "children": [
+                      {
+                        "component": "span",
+                        "text": "/assets/original.png"
+                      },
+                      {
+                        "component": "span",
+                        "text": "here."
+                      }
+                    ]
+                  }
+                ]
+             }
+
+           ]
+
+         },
+         "docLink": "/assets/mind2body.pdf"
+
+      },
+
+      {
+         "title":"PERSONA/STORYBOARDING",
+         "image":"portfolio/storyboard/storyboard.png",
+         "subtitle":"a persona and storyboard for the Coca-Cola Freestyle Kiosk",
+         
+  
+         "description":"As a User Experience research exercise, I created a persona and storyboard based on observations and interviews of Coca-Cola Freestyle Kiosk users.",
+         "content": {
+           "component": "div",
+           "children":[
+             {
+               "component": "div",
+               "text": "COMING SOON"
+             
+            }
+           ]
+         },
+
+         "docLink": "/assets/storyboard.pdf"
+      },
+      {
+         "title":"CURESKIN PROTOTYPE",
+         "image":"portfolio/cureskin/cureskin.png",
+         
+         "subtitle":"a smartphone prototype for an Indian dermatology startup",
+         "siteLink": "https://www.quant-ux.com/test.html?h=a2aa10ae74MLSUBs5zvkinw115faOIEMfwIZ1n5nz76HdtQIipSxvTSEFzo6",
+   
+         "description":"A hi-fi prototype of a redesign for CureSkin, an Indian dermatology startup, which we ran user tests on and analyzed the results. We started with sketches of the interface then created an interactive mockup on Figma which we then hosted on QuantUX and uploaded on UserTesting.com to get users to try out the interface.",
+         "content": {
+           "component": "div",
+           "children":[
+             {
+               "component": "div",
+               "text": "COMING SOON"
+             }
+
+           ]
+         },
+         "docLink": "/assets/cureskin.pdf"
+      },
+      {
+         "title":"A/B TESTING & EYETRACKING",
+         "image":"portfolio/abtest/eyetracking.png",
+         "subtitle":"A/B testing for a fictitious taxi website",
+    
+         "description":"We created 2 versions of a hypothetical taxi website and collected and analyzed user behavior through quantitative data in A/B Testing and qualitative data in Eye Tracking.",
+         "content": {
+           "component": "div",
+           "children":[
+             {
+               "component": "div",
+               "text": "COMING SOON"
+             
+             }
+           ]
+         },
+         "docLink": "/assets/abtest.pdf"
+      }
+      
+      
+   ]
+}
