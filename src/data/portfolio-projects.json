@@ -2,13 +2,13 @@
    "projects":[
 
       {
-         "title":"Responsive Redesign",
+         "title":"RESPONSIVE REDESIGN",
          "image":"portfolio/mind2body/mind2body.png",
          "subtitle":"a redesign of the Mind 2 Body Fitness Studio website",
     
          "description":"I redesigned Mind 2 Body Fitness Studio's website based on usability principles: adapting to different sized devices. I used Balsamiq to create wireframes and did a visual redesign on Sketch before creating a hi-fi prototype using HTML/CSS.",
          
-         "siteLink": "/assets/mind2body.html",
+         "siteLink": "http://mind2body.herokuapp.com/",
 
          "content": {
            "component": "div",
@@ -42,6 +42,53 @@
                     ]
                   }
                 ]
+             },
+
+             {
+               "component": "div",
+               "text": "After reviewing the usability of the original interface using criteria from usability.gov, I used Balsamiq to create wireframes. I considered design, ease of learning, efficiency of use, memorability, error frequencey and severity, and subjective satisfaction. (An extensive analysis and explanation can be viewed in the full documentation!)"
+            },
+
+            {
+               "component": "JsonImageLoader",
+               "text": "portfolio/mind2body/wireframes.png"
+             },
+
+             {
+               "component": "div",
+               "text": ""
+            },
+
+             {
+               "component": "div",
+               "text": "I then redesigned the interface for its visual appeal, using principles about color, typography, layout and simplicity. I chose to redesign the homepage for the visual redesign and created a high-fidelity interface using HTML/CSS. To preserve memorability, I used a their logos and their color scheme but toned it down for a simpler and cleaner interface."
+            },
+
+            {
+               "component": "JsonImageLoader",
+               "text": "portfolio/mind2body/sketch.png"
+             },
+            {
+               "component": "div",
+               "children": [
+                 {
+                   "component":"span",
+                   "text":"The high-fidelity interface can be viewed "
+                  },
+                  {
+                    "component": "JsonLinkLoader",
+                    "children": [
+                      {
+                        "component": "span",
+                        "text": "http://mind2body.herokuapp.com"
+                      },
+                      {
+                        "component": "span",
+                        "text": "here."
+                      }
+                    ]
+                  }
+                ]
              }
 
            ]
@@ -63,11 +110,52 @@
            "children":[
              {
                "component": "div",
-               "text": "COMING SOON"
+               "text": "To exercise my persona and storyboarding crafting skills, I stepped into a user's shoes by observing users interacting with the Coca-Cola Freestyle Kiosk, interviewing them, and creating mental models."
+            },
+
+            {
+               "component": "div",
+               "text": "This is a sample some of the users' responses:"
+            },
+
+            {
+               "component": "div",
+               "text": "“I like that there are different categories. I also like that there are a lot of options.”"
+            },
+            {
+               "component": "div",
+               "text": "“...sometimes it lags when you touch something and you accidentally end up pressing something you didn't want cause the machine made you think you didn't press the button.”"
+            },
+
+            {
+               "component": "div",
+               "text": "“I think it takes too long to choose a drink so if there was a way to show the most popular drinks first that would probably save time”"
+            },
+
+            {
+               "component": "div",
+               "text": "I created two mental models based on the observations I made of the users."
+            },
+
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/storyboard/mentalmodels.png"
+             },
+
+             {
+               "component": "div",
+               "text": "I chose one of the mental models I constructed to further develop a storyboard that shows how the persona experiences the Coca-Cola Freestyle Kiosk."
              
-            }
+            },
+
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/storyboard/daniela.png"
+             }
            ]
          },
+
+
 
          "docLink": "/assets/storyboard.pdf"
       },
@@ -84,7 +172,8 @@
            "children":[
              {
                "component": "div",
-               "text": "COMING SOON"
+               "text": "As a group of 4, we designed an interface for an emerging startup by: sketching ideas of the interface, creating an interactive, hi-fi prototype, and running user test on the final prototype using UserTesting."
+             
              }
 
            ]
@@ -102,9 +191,90 @@
            "children":[
              {
                "component": "div",
-               "text": "COMING SOON"
-             
-             }
+               "children": [
+                 {
+                   "component":"span",
+                   "text":"We designed two versions of a taxi website and both websites can be viewed "
+                  },
+                  {
+                    "component": "JsonLinkLoader",
+                    "children": [
+                      {
+                        "component": "span",
+                        "text": "https://thawing-tor-22090.herokuapp.com/"
+                      },
+                      {
+                        "component": "span",
+                        "text": "here."
+                      }
+                    ]
+                  }
+                ]
+             },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/a.png"
+             },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/b.png"
+             },
+
+             {
+                   "component":"div",
+                   "text":"We then created hypotheses for the following metrics: click through rate, time to click, dwell time, and return rate, and collected data that I analyzed. The calculations can be viewed in the full documentation, but the results are as follows:"
+              },
+
+             {
+                   "component":"div",
+                   "text":"Click through rate: No statistical significance, because there is a possibility that users are not aware of the larger hit boxes or they are not effective in getting users to click on the page."
+              },
+
+             {
+                   "component":"div",
+                   "text":"Time to click: No statistical significance, but the statistical test shows that the difference in time to click may not be reliable nor is having a list effective in getting users to interact with the page faster."
+              },
+
+             {
+                   "component":"div",
+                   "text":"Dwell time: No statistical significance, so we would have to rethink the text in the buttons—find out more or visit site—that bring users to the external pages. We would also need to think about how to display information about the different cab companies."
+              },
+
+             {
+                   "component":"div",
+                   "text":"Return rate: There is a statistical significance meaning Version A (first image above) has a more successful return rate."
+              },
+
+             {
+                   "component":"div",
+                   "text":"Version A eyetracking results:"
+              },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/versionA.png"
+             },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/versionA-1.png"
+             },
+
+             {
+                   "component":"div",
+                   "text":"Version B eyetracking results:"
+              },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/versionB.png"
+             },
+             {
+               "component": "JsonImageLoader",
+               "text": "portfolio/abtest/versionB-1.png"
+             },
+
+             {
+                   "component":"div",
+                   "text":"The visualizations for Version A show that user’s gaze is all over the screen and this is because there are items spread out taking up a lot of screen space. The visualizations for Version B show that the user’s gaze is more focused on a single area of the screen, the left side, because the items are more concentrated in that region. "
+              }
            ]
          },
          "docLink": "/assets/abtest.pdf"

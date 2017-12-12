@@ -6,19 +6,18 @@ $body-bg: transparent;
   line-height: 1.5;
   .profile {
     text-align: center;
-    padding-right:60px;
+    padding-top:70px;
     .name {
       @extend %name_styling;
       font-size: $largest_font;
       text-align: center;
       padding-bottom: 40px;
-      letter-spacing: 3px;
+      letter-spacing: 5px;
     }
     .about-item {
       font-size: $normal_font;
       color: $color_blue;
       line-height: 1.875;
-      //text-indent: -1em; //accounts for "commenting out"
       //margin-left:1em;
     }
     .about-item::before {
@@ -32,8 +31,6 @@ $body-bg: transparent;
       display:flex;
       justify-content: center;
       align-items: center;
-      .profile {
-        padding-left: $largest_font;
-      }
+      
     }
 }

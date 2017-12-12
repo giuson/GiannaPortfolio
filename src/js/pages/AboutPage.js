@@ -19,7 +19,12 @@ export default class AboutPage extends React.Component {
         <MainNavigation />
         <div className="content">
           <img src='../../assets/gianna.png'></img>
-          <h4>my name is gianna isabelle uson</h4>
+          <h4>hi, i'm gianna!</h4>
+          <span>i study computer science at brown university<br/>
+          i'm a *huge* people person and spend most of my time with friends<br/>
+          i love learning about people and understanding their needs<br/>
+          and creating products that make them happy!</span>
+          
         </div>
         <MainFooter next="portfolio"/>
       </div>
