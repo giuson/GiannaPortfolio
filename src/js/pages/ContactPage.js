@@ -20,7 +20,7 @@ export default class ContactPage extends React.Component {
         <div className="content">
           <h4>Let's connect!</h4>
           <div className="contact-mediums">
-          <div><a href="mailto:gianna_uson@brown.edu">gianna_uson@brown.edu</a></div>
+          <div><a href="mailto:gianna_uson@brown.edu">giannauson@gmail.com</a></div>
           </div>
         </div>
         <MainFooter back="portfolio"/>
